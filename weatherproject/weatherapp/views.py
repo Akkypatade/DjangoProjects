@@ -10,7 +10,7 @@ def home(request):
     else:
         city = 'Pune'
         
-    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=22bd5fdd9126be949c3051799089301b"
+    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=<API-Token>"
     PARAMS = {'units':'metric'}
     try:
         
